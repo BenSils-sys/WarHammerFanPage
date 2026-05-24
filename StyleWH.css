@@ -1,0 +1,182 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#050b16;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+.custom-nav{
+    background:#000814;
+    border-bottom:2px solid #ffb703;
+}
+
+.navbar-brand{
+    color:#ffb703 !important;
+    letter-spacing:2px;
+}
+
+.nav-link{
+    color:white !important;
+    transition:0.3s;
+}
+
+.nav-link:hover{
+    color:#ffb703 !important;
+}
+
+
+
+.hero-section{
+    height:100vh;
+    background:url('https://artwork.40k.gallery/wp-content/uploads/2024/08/The-Great-Devourer-Background.jpg');
+    background-size:cover;
+    background-position:center;
+    position:relative;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.overlay{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.7);
+}
+
+.hero-content{
+    position:relative;
+    z-index:2;
+}
+
+.hero-content h1{
+    font-size:4rem;
+    text-shadow:0 0 20px #ffb703;
+}
+
+
+
+.custom-card{
+    background:#101b2d;
+    border:1px solid #ffb703;
+    transition:0.4s;
+    overflow:hidden;
+}
+
+.custom-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 20px #ffb703;
+}
+
+.custom-card img{
+    height:250px;
+    object-fit:cover;
+}
+
+.card-title,
+.card-text,
+.custom-card p,
+.custom-card h2{
+    color:white;
+}
+
+
+
+.lore-section{
+    background:#09111f;
+}
+
+.section-title{
+    color:#ffb703;
+    margin-bottom:20px;
+}
+
+
+
+.custom-modal{
+    background:#09111f;
+    color:white;
+    border:1px solid #ffb703;
+}
+
+.form-control{
+    background:#1a2638;
+    border:none;
+    color:white;
+}
+
+.form-control:focus{
+    background:#1a2638;
+    color:white;
+    box-shadow:0 0 10px #ffb703;
+}
+
+
+
+.page-banner{
+    height:40vh;
+    background:url('https://i0.wp.com/grimdarkfuture.tv/wp-content/uploads/2024/06/whatis40k.jpg?fit=1920%2C1080&ssl=1');
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+}
+
+.page-banner h1{
+    font-size:4rem;
+    text-shadow:0 0 20px black;
+}
+
+
+
+.video-card{
+    background:#101b2d;
+    padding:20px;
+    border:1px solid #ffb703;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.video-card:hover{
+    transform:scale(1.02);
+}
+
+.video-card h3{ 
+    margin-bottom:15px; 
+    color:#ffb703;  
+}   
+
+
+.footer{    
+    background:#000814;
+    padding:20px;
+    border-top:2px solid #ffb703;
+    margin-top:40px;
+}
+
+
+
+@media(max-width:768px){
+
+    .hero-content h1{
+        font-size:2.5rem;
+    }
+
+    .page-banner h1{
+        font-size:2.5rem;
+    }
+
+}
